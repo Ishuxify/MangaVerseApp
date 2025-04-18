@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_manga"
+
+    android:title="Manga" />
+    <item
+        android:id="@+id/faceFragment"
+        android:icon="@drawable/ic_face"
+    android:title="Face" />
+</menu>

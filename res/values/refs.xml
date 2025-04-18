@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="error_image" />
+    <drawable name="placeholder" />
+    <drawable name="placeholder_image" />
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MangaDetailFragment"
+    android:id="@+id/mangaDetailFragment"
+    android:background="#000000">
+
+    <!-- Title Section -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Man From Murim"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <!-- Subtitle Section -->
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Man From Moorim\n· The Delivery Man From Moorim\n· Moorim - The Delivery Man\nFrom Murim · 무말에서 온 배달부"
+        android:textSize="14sp"
+        android:textColor="#CCCCCC"
+        android:layout_marginTop="8dp" />
+
+    <!-- Image Section (Placeholder for the poster) -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/image_view_poster"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"/>
+
+
+    <!-- Description Section -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="The martial god of the Murim becomes a super-fast delivery man!\n\nBefore even reaching the age of forty, the martial god 'Kang So' had conquered the world. While he was in the midst of consolidating his energy after reaching enlightenment, he suddenly descended into a newly formed rift...\n\nHe arrives in 21st century South Korea, a land desolated by gates and demonic beasts. Here, the martial god from the martial world, now a delivery man, shall bring peace!"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center" />
+
+</LinearLayout>
